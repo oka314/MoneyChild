@@ -1,0 +1,16 @@
+.top-main{
+  background-image: /Users/okamotokoshi/Desktop/個人アプリ/MoneyChild/public/IMG_0164.jpeg;
+  &__title{
+  padding: 100px;
+  text-align: center;
+  font: bold 3em/ 1 Verdana,Arial,sans-serif;
+  background: linear-gradient(to left, #f00 0%, #f80 14.28%, #dd0 28.56%, #0d0 42.85%, #0dd 57.14%, #00f 71.42%, #e0e 85.71%, #f00 100%) 0% center / 200% auto;;
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation:title-rainbow 4s linear infinite;
+  }
+  @keyframes title-rainbow {
+    to {background-position-x: 200%;}
+  }
+}
